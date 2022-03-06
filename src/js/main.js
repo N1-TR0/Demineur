@@ -118,7 +118,7 @@ Minesweeper.prototype.check = function (pos, checking, clicked) {
               }
             }
           }
-          Game.show_message('You lost!', 'Reset', 'lost', function () {
+          Game.show_message('Tu as perdu!', 'Relancer', 'lost', function () {
             this.init()
           }.bind(this))
         } else {
